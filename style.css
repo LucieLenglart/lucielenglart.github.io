@@ -1,0 +1,51 @@
+/* Styles pour la bande latérale */
+.wrapper {
+    display: flex;
+    height: 100%;
+  }
+  
+  .sidebar {
+    background-color: #eee;
+    width: 200px;
+    padding: 2rem;
+  }
+  
+  /* Styles pour le menu des onglets */
+  .tab-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tab-menu li {
+    margin: 0;
+  }
+  
+  .tab-menu li a {
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .tab-menu li a:hover {
+    background-color: #ddd;
+  }
+  
+  .tab-menu li a.active {
+    background-color: #ddd;
+  }
+  
+  /* Styles pour le contenu des onglets */
+  .tab-content > div {
+    display: none;
+    padding: 2rem;
+    border: 1px solid #ddd;
+  }
+  
+  .tab-content > div.active {
+    display: block;
+  }
+  
