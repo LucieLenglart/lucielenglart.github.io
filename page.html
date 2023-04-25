@@ -5,43 +5,109 @@
     <title>Ma page personnelle</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <header>
-      <h1>Ma page personnelle</h1>
-    </header>
-    <div class="wrapper">
-      <nav class="sidebar">
-        <ul class="tab-menu">
-          <li><a href="#enseignements" class="active">Enseignements</a></li>
-          <li><a href="#publications">Publications et communications</a></li>
-          <li><a href="#engagements">Engagements</a></li>
-          <li><a href="#parcours">Parcours</a></li>
-          <li><a href="#cv">CV</a></li>
+
+<!--Body sup-->
+ <body>
+  <div id = "header" style = "background-color:rgb(43, 65, 76)">
+    <div class = "top" style="display: flex; max-height : 14rem">
+      <div class = "logo" style = "flex : 1 ; display : flex-end">
+      <span class = "image" style= " display : inline-block; margin-left: 1rem; margin-top: 1rem "> <img width = "100rem" height = "auto" src = "https://media.licdn.com/dms/image/C4E03AQEm8-ZzebGMJA/profile-displayphoto-shrink_400_400/0/1653589144809?e=1687996800&v=beta&t=wvOx2u2tmHDNkCVaWCaEFseVRZ9NX7Hhv5q75DHqQ7M"> </span>
+      <h1 style= "margin-left: 1rem;">Lucie Lenglart</h1>
+      <p style= "margin-left: 1rem;"> PhD Student</p>
+    </div>
+    <div class = "parent" style = "flex : 5; display:flex ; align-items: flex-end">
+      <nav id="nav" style = "flex-grow: 1">
+        <ul style= "display : flex; font-size:x-large; position : bottom ; flex-grow: 1; justify-content: space-between">
+          <li><a href="#pres"><span class="cat">Presentation</span></a></li>
+          <li><a href="#pubcom"><span class="cat">Publications and communications</span></a></li>
+          <li><a href="#Resp" ><span class="cat">Implications </span></a></li>
+          <li><a href="#Train" ><span class="cat">Training and projects</span></a></li>
         </ul>
       </nav>
-      <main>
-        <div id="enseignements" class="tab-content active">
-          <h2>Enseignements</h2>
-          <p>Contenu de la section "Enseignements".</p>
-        </div>
-        <div id="publications" class="tab-content">
-          <h2>Publications et communications</h2>
-          <p>Contenu de la section "Publications et communications".</p>
-        </div>
-        <div id="engagements" class="tab-content">
-          <h2>Engagements</h2>
-          <p>Contenu de la section "Engagements".</p>
-        </div>
-        <div id="parcours" class="tab-content">
-          <h2>Parcours</h2>
-          <p>Contenu de la section "Parcours".</p>
-        </div>
-        <div id="cv" class="tab-content">
-          <h2>CV</h2>
-          <p>Contenu de la section "CV".</p>
-        </div>
-      </main>
+    </div>   
     </div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+      <div class = "main"> 
+        <section id="top" class="one dark cover">
+          <div class="container">
+
+            <header>
+              <p>Ligula scelerisque justo sem accumsan diam quis<br />
+              vitae natoque dictum sollicitudin elementum.</p>
+            </header>
+
+            <footer>
+              <a href="#pres" class="button scrolly"></a>
+            </footer>
+
+            <!-- Presentation -->
+					<section id="pres" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
+            
+              <footer>
+                <a href="#pubcom" class="button scrolly"></a>
+              </footer>
+  
+              <!-- Publi -->
+            <section id="pubcom" class="two">
+              <div class="container">
+  
+                <header>
+                  <h2>Publications and communications </h2>
+                </header>
+  
+                <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+                egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+                Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+                fusce hendrerit lacus ridiculus.</p>
+
+                <footer>
+                  <a href="#Resp" class="button scrolly"></a>
+                </footer>
+    
+                <!-- Implications -->
+              <section id="Resp" class="two">
+                <div class="container">
+    
+                  <header>
+                    <h2>Implications </h2>
+                  </header>
+    
+                  <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+                  egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+                  Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+                  fusce hendrerit lacus ridiculus.</p>
+
+                  <footer>
+                    <a href="#Train" class="button scrolly"></a>
+                  </footer>
+      
+
+                  <!-- Presentation -->
+                <section id="Train" class="two">
+                  <div class="container">
+      
+                    <header>
+                      <h2>Trainings and projects </h2>
+                    </header>
+      
+                    <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+                    egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+                    Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+                    fusce hendrerit lacus ridiculus.</p>
+  
+
+          </div>
+        </section>
+    </div>
+ </body>
 </html>
