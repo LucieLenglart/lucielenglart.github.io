@@ -454,5 +454,5 @@ input, select, textarea {
 			transform: translate(-0.5rem, -0.1rem);
 		}
 		.special{
-			cursor: url("https://github.com/LucieLenglart/lucielenglart.github.io/blob/main/Images/curs.png"), auto;
+			cursor: url("Images/curs.png"), auto;
 		}
