@@ -181,7 +181,7 @@ input, select, textarea {
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		outline: 0;
+		outline: none;
 	}
 
 		a:hover {
@@ -254,7 +254,7 @@ input, select, textarea {
 				padding: 0.12em 1em 0.12em 1em;
 				color: #d5d5d5;
 				text-decoration: none;
-				outline: 0;
+				outline: none;
 				border: 0;
 				-moz-transition: none;
 				-webkit-transition: none;
@@ -455,4 +455,10 @@ input, select, textarea {
 		}
 		.special{
 			cursor: url("Images/curs.png"), auto;
+		}
+		.special:link{
+			outline: none;
+			text-decoration: none;
+			border-bottom:none
+			
 		}
