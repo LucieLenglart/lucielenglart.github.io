@@ -454,11 +454,5 @@ input, select, textarea {
 			transform: translate(-0.5rem, -0.1rem);
 		}
 		.special{
-			cursor: url("Images/curs.png"), auto;
-		}
-		.special:link{
-			outline: none;
-			text-decoration: none;
-			border-bottom:none
-			
+			cursor: url(Images/curs.png), auto;
 		}
